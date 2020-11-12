@@ -6,16 +6,70 @@
         <link rel="stylesheet" href="../CSS/styles.css">
     </head>
     <body>
-        <div>
+        <div id="right">
             <a href="googlesearch.html">Return to Google Search</a>
         </div>
         <div>
             <form action="https://google.com/search">
-                <input type="text" name="as_q">
-                <input type="text" name="as_epq">
-                <input type="text" name="as_oq">
-                <input type="text" name="as_eq">
-                <input type="submit" value="Google Search">
+                <!-- <div>
+                    Find pages with... "all these words:" 
+                    <input type="text" name="as_q">
+                </div>
+                <div>
+                    Find pages with... "this exact word or phrase:"
+                    <input type="text" name="as_epq">
+                </div>
+                <div>
+                    Find pages with... "any of these words:"
+                    <input type="text" name="as_oq">
+                </div>
+                <div>
+                    Find pages with... "none of these words:"
+                    <input type="text" name="as_eq">
+                </div>
+                <div>
+                    <input type="submit" value="Google Search">
+                </div> -->
+                <table style="width: 90%">
+                    <tbody>
+                        <tr>
+                            <td>Find pages with... "all these words:"</td>
+                            <td>
+                                <div id="div1">
+                                    <input type="text" name="as_q">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Find pages with... "this exact word or phrase:"</td>
+                            <td>
+                                <div id="div1">
+                                    <input type="text" name="as_epq">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Find pages with... "any of these words:"</td>
+                            <td>
+                                <div id="div1">
+                                    <input type="text" name="as_oq">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Find pages with... "none of these words:"</td>
+                            <td>
+                                <div id="div1">
+                                    <input type="text" name="as_eq">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Google Search"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </form>
         </div>
     </body>
